@@ -17,7 +17,7 @@ const nextConfig = {
   },
   trailingSlash: true,
   experimental: {
-    turbopack: true, // ปิดการใช้งาน Turbopack
+    turbopack: false, // ปิดการใช้งาน Turbopack
   },
 };
 
