@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+
+}
+
+@theme inline {
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground: #ededed;
+  }
+}
+
+
+@theme {
+  --color-primary: #00c951;
+}
+
+@layer utilities {
+  .nav {
+    @apply  hover:text-primary transition-colors duration-300 flex items-center gap-1 tracking-[1px] 
+  }
+  .nav::after{
+    @apply content-[''] bg-primary h-[3px] w-[0%] left-0 -bottom-[5px] rounded-xl absolute duration-300
+  }
+  .nav:hover::after{
+    @apply w-[100%]
+  }
+}

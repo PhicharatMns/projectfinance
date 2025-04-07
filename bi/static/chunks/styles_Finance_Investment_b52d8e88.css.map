@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/styles/Finance_Investment.css"],"sourcesContent":["/* .img-head {\r\n    background-image: url(https://www.smarttoinvest.com/PublishingImages/Pages/Know%20Investment/Money%20Calculation%20Tool/Three.png);\r\n    background-size: cover;\r\n    background-position: center; \r\n    background-attachment: fixed; \r\n    width: 100%; \r\n    height: 1000px;\r\n  }\r\n   */\r\n\r\n  .rounded_css{\r\n    border-radius: 25px;\r\n  }\r\n"],"names":[],"mappings":"AAUE"}}]
+}
